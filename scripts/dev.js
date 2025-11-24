@@ -36,7 +36,7 @@ if (!existsSync(join(exerciseDir, 'vite.config.js'))) {
 
 console.log(`\n🚀 Iniciando: ${exerciseDir}\n`);
 
-const vite = spawn('npx', ['vite', '--config', `${exerciseDir}/vite.config.js`, exerciseDir], {
+const vite = spawn('npx', ['vite', '--config', `${exerciseDir}/vite.config.js`, '--port', '3000', exerciseDir], {
   stdio: 'inherit',
   shell: true
 });
