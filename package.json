@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
+    "dev": "node scripts/dev.js",
+    "build": "node scripts/build.js"
   },
   "repository": {
     "type": "git",
