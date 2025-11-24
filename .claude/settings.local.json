@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(dir /s /b \"c:\\Programming\\threejs_journey\")",
+      "Bash(mkdir:*)",
+      "Bash(move:*)",
+      "Bash(move \"c:\\Programming\\threejs_journey\\static\" \"c:\\Programming\\threejs_journey\\03-firstthreejsproject\\static\")",
+      "Bash(mv:*)",
+      "Bash(git add:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nReorganize project structure for multi-exercise workflow\n\n- Move exercise code into dedicated folders (03-firstthreejsproject, 04-transform-objects)\n- Add dynamic scripts to run any exercise with `npm run dev <number>`\n- Share node_modules across all exercises from root\n- Add comprehensive README with full course table of contents\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(npx vite)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
